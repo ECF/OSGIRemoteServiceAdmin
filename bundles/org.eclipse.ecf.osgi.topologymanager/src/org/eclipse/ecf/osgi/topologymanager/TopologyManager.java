@@ -240,12 +240,12 @@ public class TopologyManager
 	}
 
 	@Override
-	public String[] getMatchingFilters() {
+	public String[] getEndpointFilters() {
 		return this.matchingFilters.toArray(new String[this.matchingFilters.size()]);
 	}
 
 	@Override
-	public String[] setMatchingFilters(String[] newFilters) {
+	public String[] setEndpointFilters(String[] newFilters) {
 		List<String> f = this.matchingFilters;
 		if (f == null || newFilters == null)
 			return null;
