@@ -10,6 +10,6 @@ Import-Package: org.eclipse.ecf.osgi.services.remoteserviceadmin,
  org.osgi.framework,
  org.osgi.framework.hooks.service,
  org.osgi.service.remoteserviceadmin,
- org.slf4j;version="1.7.21"
+ org.slf4j
 Require-Bundle: org.eclipse.equinox.common
 Export-Package: org.eclipse.ecf.osgi.topologymanager;version="1.0.0"
