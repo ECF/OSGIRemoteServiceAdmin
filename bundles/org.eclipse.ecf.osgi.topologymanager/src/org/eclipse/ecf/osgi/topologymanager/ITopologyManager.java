@@ -29,7 +29,7 @@ public interface ITopologyManager {
 
 	public static final String ONLY_ECF_SCOPE = "(" + RemoteConstants.ENDPOINT_CONTAINER_ID_NAMESPACE + "=*)"; //$NON-NLS-1$ //$NON-NLS-2$
 
-	public String[] getMatchingFilters();
-	public String[] setMatchingFilters(String[] newFilters);
+	public String[] getEndpointFilters();
+	public String[] setEndpointFilters(String[] newFilters);
 
 }
